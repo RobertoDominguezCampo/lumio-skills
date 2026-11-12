@@ -46,10 +46,10 @@ These dashboards were part of the same study. Their images are not included in t
 | List + Canvas | Shipment Logistic (dark) | Cansaas | https://dribbble.com/shots/26886445 |
 | Full-Bleed Canvas | Prairie Wind Site | Orizon | https://dribbble.com/shots/26374797 |
 | Full-Bleed Canvas | Clean Energy · City Map | TheMotionDot | https://dribbble.com/shots/26039357 |
-| Table / single column | LeonAnd — Minimal SaaS Analytics | Paperpillar | https://dribbble.com/shots/27322689 |
-| Executive Z | Shopeers — B2B eCommerce Analytics | Dipa Inhouse | https://dribbble.com/shots/26628350 |
-| Table / single column | Sales analytics — Untitled UI | Jordan Hughes | https://dribbble.com/shots/24365702 |
-| Table / single column | eCommerce analytics — Untitled UI | Jordan Hughes | https://dribbble.com/shots/23564647 |
-| Main + Insight Rail | LoopAI — CRM for B2B SaaS | Phenomenon Studio | https://dribbble.com/shots/25961490 |
-| Executive Z | Customer analytics — Untitled UI | Jordan Hughes | https://dribbble.com/shots/22643409 |
+| Table / single column | LeonAnd: Minimal SaaS Analytics | Paperpillar | https://dribbble.com/shots/27322689 |
+| Executive Z | Shopeers: B2B eCommerce Analytics | Dipa Inhouse | https://dribbble.com/shots/26628350 |
+| Table / single column | Sales analytics: Untitled UI | Jordan Hughes | https://dribbble.com/shots/24365702 |
+| Table / single column | eCommerce analytics: Untitled UI | Jordan Hughes | https://dribbble.com/shots/23564647 |
+| Main + Insight Rail | LoopAI: CRM for B2B SaaS | Phenomenon Studio | https://dribbble.com/shots/25961490 |
+| Executive Z | Customer analytics: Untitled UI | Jordan Hughes | https://dribbble.com/shots/22643409 |
 | Main + Insight Rail | Marketing Analytics Dashboard | Purrweb | https://dribbble.com/shots/27686873 |
