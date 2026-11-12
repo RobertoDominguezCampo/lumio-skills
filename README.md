@@ -8,7 +8,7 @@ Here I share the Claude skills I build in the videos. They are free. Take them, 
 
 | Skill | What it does | Video |
 |---|---|---|
-| [dashboard-design](dashboard-design/) | Makes Claude design a Power BI dashboard like a senior designer. It picks a layout, uses complete components and asks for the context first. | Turn Claude into a Senior Power BI Designer in 3 Simple Steps (link coming soon) |
+| [dashboard-design](dashboard-design/) | Designs Power BI dashboards and reports that look professional. It makes the prototype of the page, not the Power BI file. | Turn Claude into a Senior Power BI Designer in 3 Simple Steps (link coming soon) |
 
 ## How to install a skill
 
