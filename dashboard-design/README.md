@@ -58,8 +58,15 @@ When you want to change something:
 - Always say what the page must never do. It is the fastest way to remove things that say nothing.
 - If you don't like the layout, ask for another one of the five and ask why. The reason helps you decide.
 - The components are a starting point. Ask Claude to adapt them to your data and your question.
-- The skill does not decide colors or fonts. Give Claude your theme or your design system and it will use it.
 - Open `assets/components/preview.html` in your browser to see the ten components before you start.
+
+## Use it with your design system
+
+The skill decides where things go and why. It does not decide colors, fonts or spacing.
+
+So it works best together with your own design system. Give Claude your Power BI theme file, your brand colors or your company guidelines, and tell it to use them in the prototype. Then you get the layout and the components from the skill, with the look of your company.
+
+If you don't have one yet, it still works. You get a clean, neutral design.
 
 ## What is inside
 
