@@ -1,4 +1,4 @@
-# Layout — Executive Z
+# Layout: Executive Z
 
 KPI strip, one main chart with its context, a detail table. The most common pro pattern
 (63 of 301 dashboards, 21%) and the safe default for an executive page.
@@ -52,25 +52,25 @@ table, which is already the tightest zone.
 
 ## What goes in each zone
 
-- **Sidebar nav** — report name, page list with the current page highlighted, and at the
+- **Sidebar nav**: report name, page list with the current page highlighted, and at the
   bottom the data refresh date. Example: *Overview · Sales · Margin · Customers ·
   Updated 2 Nov 2026*.
-- **Title + filters** — page title as a sentence plus the period and 1–2 slicers
+- **Title + filters**: page title as a sentence plus the period and 1-2 slicers
   (period, region). Example: *October 2026 · Sales performance* · [Oct 2026 ▾] [All regions ▾].
-- **KPI strip (3–5 equal cards, 4 here)** — one number each, with a delta and the
+- **KPI strip (3-5 equal cards, 4 here)**: one number each, with a delta and the
   comparison it is measured against. Example:
   *Net Sales €4.82M ▲ 6.4% vs LY* · *Gross Margin 38.1% ▼ 1.2 pp vs target* ·
   *Orders 12,406 ▲ 3.1%* · *Avg Order Value €388 ▲ 3.2%*.
-- **Main chart (the story)** — the trend that explains the KPIs, with a narrative
+- **Main chart (the story)**: the trend that explains the KPIs, with a narrative
   headline. Example: *"Sales beat last year in 9 of 10 months; October is the best month
   on record"*, monthly columns 2026 vs a 2025 line, target as a dashed reference.
-- **Context / breakdown** — the cut that answers "where": by region, channel or
+- **Context / breakdown**: the cut that answers "where": by region, channel or
   category. Example: horizontal bars by region, *North €1.64M · South €1.21M ·
   East €1.08M · West €0.89M*, each with its vs-LY delta.
-- **Detail table** — the rows a manager acts on, sorted by deviation. Example: top 10
+- **Detail table**: the rows a manager acts on, sorted by deviation. Example: top 10
   products by gap to target, with Sales, Target, Gap and Margin %.
 
-## Variant — Insight (no table)
+## Variant: Insight (no table)
 
 For presentations and leadership meetings: a short visit, no exploring. Same sidebar,
 title and KPI strip; the table goes and both main zones run to the bottom edge.

@@ -1,4 +1,4 @@
-# Layout — Full-Bleed
+# Layout: Full-Bleed
 
 The visual is the background and panels float on top of it. 10 of 301 pro dashboards (3%).
 
@@ -8,7 +8,7 @@ The visual is the background and panels float on top of it. 10 of 301 pro dashbo
   the point. Energy sites, city or delivery networks, buildings, a fleet on a map. Also
   strong as a report cover page.
 - **Audience:** operations centres and wall screens read from a distance, or a leadership
-  audience opening the report. They need the picture first and only 3–4 numbers.
+  audience opening the report. They need the picture first and only 3-4 numbers.
 - **Reading path:** the visual first, then the floating panel, then the KPI cards along
   the bottom.
 
@@ -55,14 +55,14 @@ on the top edge.
 
 ## What goes in each zone
 
-- **Full-bleed visual** — the map, plan or site, coloured by status. Example: map of
+- **Full-bleed visual**: the map, plan or site, coloured by status. Example: map of
   the solar portfolio, 38 sites, bubble = capacity, colour = output vs forecast.
-- **Floating icon rail nav** — one icon per page, current page highlighted.
-- **Floating panel** — the narrative and the list. Headline, a short explanation, then
+- **Floating icon rail nav**: one icon per page, current page highlighted.
+- **Floating panel**: the narrative and the list. Headline, a short explanation, then
   a ranked list. Example: *"Output is 4% under forecast, driven by 3 sites in the
   north"*, then *Lugo 71% · Burgos 78% · León 83%* of forecast, each with a status dot.
-- **Filter pills** — Example: [Today ▾] [All regions ▾] [Solar ▾].
-- **Callout** — the one point on the map that needs attention. Example: *Lugo · 71% of
+- **Filter pills**: Example: [Today ▾] [All regions ▾] [Solar ▾].
+- **Callout**: the one point on the map that needs attention. Example: *Lugo · 71% of
   forecast · inverter fault since 08:15*.
-- **KPI cards (3)** — Example: *Output 412 MWh ▼ 4.1% vs forecast* ·
+- **KPI cards (3)**: Example: *Output 412 MWh ▼ 4.1% vs forecast* ·
   *Availability 97.2% (target 98%)* · *Revenue today €38.6K ▼ €1.7K vs forecast*.

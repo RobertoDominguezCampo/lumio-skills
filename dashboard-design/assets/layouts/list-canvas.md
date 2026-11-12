@@ -1,4 +1,4 @@
-# Layout — List + Canvas
+# Layout: List + Canvas
 
 Master-detail: pick an item in the list on the left, the canvas answers about it on the
 right. 16 of 301 pro dashboards (5%).
@@ -55,18 +55,18 @@ separate. It also leaves the canvas above 1200 px wide, which a map or route nee
 
 ## What goes in each zone
 
-- **Icon rail nav** — one icon per page, current page highlighted.
-- **Title + filters** — Example: *Live shipments · 214 in transit* · [Today ▾]
+- **Icon rail nav**: one icon per page, current page highlighted.
+- **Title + filters**: Example: *Live shipments · 214 in transit* · [Today ▾]
   [All carriers ▾] [Delayed only ☐].
-- **Search / slicer** — search by ID or customer, and a status filter.
-- **Item cards (list)** — one card per item, sorted by urgency, selected one highlighted.
+- **Search / slicer**: search by ID or customer, and a status filter.
+- **Item cards (list)**: one card per item, sorted by urgency, selected one highlighted.
   Each shows ID, name, status badge and one key number. Example:
   *SHP-48213 · Iberia Foods · Delayed 6 h · ETA 18:40* ·
   *SHP-48197 · Norte Retail · On time · ETA 14:10*.
-- **Canvas** — where the selected item is. Example: route map Valencia → Madrid, current
+- **Canvas**: where the selected item is. Example: route map Valencia → Madrid, current
   position, planned vs actual path, with the headline *"SHP-48213 is 6 h late, held at
   the Albacete hub since 09:20"*.
-- **Detail 1** — the item's history. Example: timeline of events, *Picked 06:05 ·
-  Loaded 07:30 · Hub arrival 09:20 · Hub departure —*.
-- **Detail 2** — the item's figures vs plan. Example: *Value €18,450 · 24 pallets ·
+- **Detail 1**: the item's history. Example: timeline of events, *Picked 06:05 ·
+  Loaded 07:30 · Hub arrival 09:20 · Hub departure pending*.
+- **Detail 2**: the item's figures vs plan. Example: *Value €18,450 · 24 pallets ·
   Promised 12:40 · New ETA 18:40 · Penalty risk €920*.

@@ -1,4 +1,4 @@
-# Layout — Main + Insight Rail
+# Layout: Main + Insight Rail
 
 An analysis column on the left with a full-height rail of status, rankings and alerts on
 the right. 24 of 301 pro dashboards (8%).
@@ -38,9 +38,9 @@ the right. 24 of 301 pro dashboards (8%).
 | KPI 4 | 1028 | 104 | 292 | 128 |
 | Main chart | 104 | 248 | 1216 | 400 |
 | Detail table | 104 | 664 | 1216 | 392 |
-| Rail — status / alert | 1336 | 24 | 560 | 320 |
-| Rail — Top N ranking | 1336 | 360 | 560 | 376 |
-| Rail — secondary breakdown | 1336 | 752 | 560 | 304 |
+| Rail: status / alert | 1336 | 24 | 560 | 320 |
+| Rail: Top N ranking | 1336 | 360 | 560 | 376 |
+| Rail: secondary breakdown | 1336 | 752 | 560 | 304 |
 
 Proportions: main column 68% of the content width, rail 31%, rail at full height.
 
@@ -54,20 +54,20 @@ the top of the page to stay visible.
 
 ## What goes in each zone
 
-- **Icon rail nav** — one icon per page with a tooltip, current page highlighted.
-- **Title + filters** — over the main column only; the rail starts at the top. Example:
+- **Icon rail nav**: one icon per page with a tooltip, current page highlighted.
+- **Title + filters**: over the main column only; the rail starts at the top. Example:
   *Week 44 · Order fulfilment* · [Last 7 days ▾] [All warehouses ▾].
-- **KPI strip (4 cards)** — Example: *Orders shipped 18,240 ▲ 4.2% vs last week* ·
+- **KPI strip (4 cards)**: Example: *Orders shipped 18,240 ▲ 4.2% vs last week* ·
   *On-time rate 94.6% ▼ 0.8 pp vs 96% target* · *Avg lead time 2.3 days* ·
   *Backlog 1,128 orders ▲ 14%*.
-- **Main chart** — daily trend with a narrative headline. Example: *"On-time rate
+- **Main chart**: daily trend with a narrative headline. Example: *"On-time rate
   dropped below target on Thursday and has not recovered"*, line of on-time % with the
   96% target dashed.
-- **Detail table** — the items behind the trend. Example: late orders by customer, with
+- **Detail table**: the items behind the trend. Example: late orders by customer, with
   Orders, Late, Late %, Days late.
-- **Rail — status / alert (top)** — the most urgent thing on the page, always first.
+- **Rail: status / alert (top)**: the most urgent thing on the page, always first.
   Example: *3 open alerts · Madrid DC at 81% on-time (target 96%)*, red status dot.
-- **Rail — Top N ranking** — Example: top 5 warehouses by backlog, *Madrid 412 ·
+- **Rail: Top N ranking**: Example: top 5 warehouses by backlog, *Madrid 412 ·
   Valencia 268 · Sevilla 190 · Bilbao 141 · Zaragoza 117*.
-- **Rail — secondary breakdown** — Example: late orders by cause, *Carrier 46% ·
+- **Rail: secondary breakdown**: Example: late orders by cause, *Carrier 46% ·
   Stock-out 31% · Picking 23%*.
