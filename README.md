@@ -1,16 +1,19 @@
-# Power BI skills for Claude
+# Lumio Skills
 
-Free Claude skills for Power BI developers, from the [Lumio Visuals](https://www.youtube.com/channel/UCMoV2ElmrXMxX_NzrGXCdJA) YouTube channel.
+Hi, I'm Roberto. I make videos about Power BI and AI on [Lumio Visuals](https://www.youtube.com/channel/UCMoV2ElmrXMxX_NzrGXCdJA).
 
-Each folder is one skill. Open it to see what it does and how to install it.
+Here I share the Claude skills I build in the videos. They are free. Take them, change them, make them yours.
+
+## Skills
 
 | Skill | What it does | Video |
 |---|---|---|
-| [dashboard-design](dashboard-design/) | Designs a Power BI dashboard page like a senior designer: layout, components and context, before you build anything | Turn Claude into a Senior Power BI Designer in 3 Simple Steps (_link coming soon_) |
+| [dashboard-design](dashboard-design/) | Makes Claude design a Power BI dashboard like a senior designer. It picks a layout, uses complete components and asks for the context first. | Turn Claude into a Senior Power BI Designer in 3 Simple Steps (link coming soon) |
 
-## Install a skill
+## How to install a skill
 
-Download this repo (Code > Download ZIP) and copy the skill folder into your skills folder:
+1. Download this repo. Click the green Code button, then Download ZIP.
+2. Copy the folder of the skill you want.
+3. Paste it in `.claude/skills/` inside your project. If you want it in all your projects, paste it in `~/.claude/skills/`.
 
-- One project: `<your-project>/.claude/skills/`
-- All your projects: `~/.claude/skills/`
+That's it. Each skill has its own page with more details.
