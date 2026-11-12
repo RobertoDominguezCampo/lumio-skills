@@ -5,10 +5,10 @@ Write the answers at the top of the prototype task, in this order.
 
 | # | Question | What to write | Example |
 |---|---|---|---|
-| 1 | **Audience** — who reads it? | One role, as specific as possible: their job, not their department | The fleet manager of the Fernhill store |
-| 2 | **Decision** — what do they decide with it, and how often? | A verb + an object + a rhythm | Every week, which bikes to have ready so nothing sells out at peak hours |
-| 3 | **First question** — what do they ask first when they open it? | One question, in their words | What runs out, and when? |
-| 4 | **Never** — what must the page not do? | The trap to avoid | Show numbers they can't act on |
+| 1 | **Audience**: who reads it? | One role, as specific as possible: their job, not their department | The fleet manager of the Fernhill store |
+| 2 | **Decision**: what do they decide with it, and how often? | A verb + an object + a rhythm | Every week, which bikes to have ready so nothing sells out at peak hours |
+| 3 | **First question**: what do they ask first when they open it? | One question, in their words | What runs out, and when? |
+| 4 | **Never**: what must the page not do? | The trap to avoid | Show numbers they can't act on |
 
 ## How the answers shape the design
 
