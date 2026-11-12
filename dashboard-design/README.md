@@ -1,61 +1,57 @@
 # dashboard-design
 
-The skill from the Lumio Visuals video **"Turn Claude into a Senior Power BI Designer in 3 Simple Steps"**.
+This is the skill from my video "Turn Claude into a Senior Power BI Designer in 3 Simple Steps".
 
-It makes Claude design a Power BI dashboard page the way a senior designer would, before anything is built in Power BI:
+Video: link coming soon
 
-1. **Layout** — it picks one of five layout patterns and tells you why.
-2. **Components** — it fills every zone with a closed component, never a loose visual.
-3. **Context** — it starts from a brief: audience, decision, first question, never.
+## What it does
 
-The output is a design prototype with realistic sample numbers, native Power BI visuals only, plus a senior review and a handoff for the build.
+When you ask Claude for a Power BI dashboard, you normally get a generic page. With this skill, Claude follows the three steps from the video:
 
-Video: _link coming soon_
+1. **Layout.** It picks one of five layout patterns and tells you why.
+2. **Components.** It fills every box with a complete component, not a loose visual.
+3. **Context.** It asks who the dashboard is for and what they need to decide.
 
-## Install
+What you get is a design prototype with sample numbers, using only native Power BI visuals. It is the design, not the final report. You build it in Power BI after.
 
-**Claude Code**
+## How to install it
 
-Download this repo and copy the `dashboard-design` folder into your skills folder:
+1. Download this repo. Click the green Code button, then Download ZIP.
+2. Copy the `dashboard-design` folder.
+3. Paste it in `.claude/skills/` inside your project. If you want it in all your projects, paste it in `~/.claude/skills/`.
 
-- One project: `<your-project>/.claude/skills/dashboard-design/`
-- All your projects: `~/.claude/skills/dashboard-design/`
+## How to use it
 
-**Claude app**
+Just ask for a dashboard design. For example:
 
-Zip the `dashboard-design` folder and add it as a custom skill.
+> Design a Power BI dashboard for a logistics company.
 
-## Use it
-
-Ask for a dashboard design in plain words:
-
-> Design a dashboard page for the fleet manager of a bike rental store. Every week she decides which bikes to have ready so nothing sells out at peak hours.
-
-If you give no brief, Claude asks the four brief questions first.
+Claude asks you four questions first: who is it for, what do they decide, what do they ask first, and what the page must never do. Answer them and you get the design.
 
 ## What is inside
 
 ```
 dashboard-design/
-├── SKILL.md                  the rules Claude follows
-├── README.md                 this file
-└── assets/
-    ├── brief-template.md     the four questions to ask before designing
-    ├── layouts/              five layout patterns, with a pixel grid for 1920 × 1080
-    ├── components/           ten components + preview.html to see them
-    └── references/           the quality bar and real pro dashboards
+  SKILL.md               the rules Claude follows
+  assets/
+    brief-template.md    the four questions before designing
+    layouts/             five layout patterns, with the grid for a 1920 x 1080 page
+    components/          ten components, and preview.html to see them
+    references/          the quality bar and real pro dashboards
 ```
 
-- **Layouts:** Executive Z, Main + Insight Rail, Hero Split, List + Canvas, Full-Bleed.
-- **Components:** KPI + line, KPI + bar, KPI vs target, Variance bars, Donut + breakdown, Ranking, Table with selectors, Trend comparison, Map + top list, Insight card.
-- **Colours and fonts** are not part of this skill. Bring your own design system or Power BI theme. The tokens in `assets/components/README.md` are only the ones used in the preview.
+The layouts are Executive Z, Main + Insight Rail, Hero Split, List + Canvas and Full-Bleed.
 
-## Where the patterns come from
+The components are KPI + line, KPI + bar, KPI vs target, Variance bars, Donut + breakdown, Ranking, Table with selectors, Trend comparison, Map + top list and Insight card.
 
-The grids and shares come from a study of 1,081 dashboards, of which 301 were kept as pro level.
+## Colors and fonts
+
+The skill does not decide colors or fonts. Use your own theme or design system. The colors in `assets/components/README.md` are only the ones I used in the preview.
+
+## Where the layouts come from
+
+I looked at 1,081 dashboards and kept the 301 that look professional. The five layouts are the patterns they use the most.
 
 ## Credits
 
-The reference images in `assets/references/` are small thumbnails of dashboards published on Tableau Public. Each one is credited and linked to its author in [`assets/references/README.md`](assets/references/README.md). They belong to their authors and are here for reference only. If one is yours and you want it removed, open an issue.
-
-Everything else is by [Lumio Visuals](https://www.youtube.com/channel/UCMoV2ElmrXMxX_NzrGXCdJA).
+The images in `assets/references/` are small thumbnails of dashboards published on Tableau Public. Each one has its author and its link in [`assets/references/README.md`](assets/references/README.md). They belong to their authors. I only use them as a reference. If one is yours and you want it out, open an issue and I will remove it.

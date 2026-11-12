@@ -3,14 +3,14 @@ name: dashboard-design
 description: Use this skill for any Power BI dashboard or report design. Design prototype for a dashboard page - layout pattern, components and story, with realistic sample numbers, native Power BI visuals only - before anything is built in Power BI. Use whenever planning, sketching or prototyping a dashboard page, choosing where visuals go, or deciding a page layout. Start from a brief (ask the questions in assets/brief-template.md if there is none), check assets/references/, pick one of the five layout patterns in assets/layouts/, then fill every zone with a component from assets/components/, and always finish with the senior review.
 ---
 
-# Dashboard Design — the prototype
+# Dashboard Design: the prototype
 
 This skill covers the **design prototype**: which layout, which components, and the story
 the page tells. Building it in Power BI comes later. Colours, fonts and spacing tokens come
 from your own design system or Power BI theme. This skill decides **where
 things go and why**.
 
-## Rule 0 — Start from a brief
+## Rule 0: Start from a brief
 
 Context comes first, and it can change the layout.
 
@@ -21,7 +21,7 @@ Context comes first, and it can change the layout.
   version in [executive-z.md](assets/layouts/executive-z.md)): no detail table, no side
   navigation, filters in the header, KPI strip, main chart 2/3, action card 1/3.
 
-## Rule 1 — Check the references before you design
+## Rule 1: Check the references before you design
 
 Open `assets/references/` and read its README. **`fixed-reference.png` is the quality bar**:
 every prototype must reach its finish (spacing, type scale, hierarchy, one accent, insight
@@ -29,14 +29,14 @@ titles, closed components). Look at `pro/` for how pros build components, and at
 `layouts/<pattern>/` once the layout is chosen. Take patterns, not pixels: never copy their
 text, data, brands or logos.
 
-## Rule 2 — Choose a layout before you place any visual
+## Rule 2: Choose a layout before you place any visual
 
 Do not place a single chart, card or table until you have picked one of these patterns:
 
 | Pattern | Pick it when | File |
 |---|---|---|
 | **Executive Z** | A few headline numbers, one story, a leadership audience | [executive-z.md](assets/layouts/executive-z.md) |
-| **Executive Z · insight variant** | The brief ends in one action: one question, one page, no table | [executive-z.md](assets/layouts/executive-z.md#one-page-version-no-navigation) |
+| **Executive Z (insight variant)** | The brief ends in one action: one question, one page, no table | [executive-z.md](assets/layouts/executive-z.md#one-page-version-no-navigation) |
 | **Main + Insight Rail** | A ranking, alert or status has to stay in view during the analysis | [main-insight-rail.md](assets/layouts/main-insight-rail.md) |
 | **Hero Split** | One picture carries the answer: a map, a plan, a machine | [hero-split.md](assets/layouts/hero-split.md) |
 | **List + Canvas** | Operational tracking of single items: pick one, the page answers | [list-canvas.md](assets/layouts/list-canvas.md) |
@@ -44,25 +44,25 @@ Do not place a single chart, card or table until you have picked one of these pa
 
 If none of the five fits, say so and ask. Do not invent a sixth layout.
 
-## Rule 3 — Tell the user which layout you chose and why
+## Rule 3: Tell the user which layout you chose and why
 
 Before any visual, write one short block:
 
 > **Layout:** Executive Z
 > **Why:** monthly sales review for the leadership team. Four headline numbers, one
 > trend that explains them, and a detail table for follow-up questions.
-> **Rejected:** Insight Rail — there is no ranking that must stay in view.
+> **Rejected:** Insight Rail. There is no ranking that must stay in view.
 
 Name the pattern, the audience and question that led to it, and the runner-up you rejected.
 
-## Rule 4 — Fill every zone with a component
+## Rule 4: Fill every zone with a component
 
 After the layout is chosen, fill each zone with one component from `assets/components/`
 (see its README for the index and the shared tokens). **Never a loose visual.** A component
 answers one question, helps one action, and comes with its title, main value, context and
 chart. Use the size listed for that zone. If no component fits a zone, say so and ask.
 
-## Rule 5 — Meet the component quality bar
+## Rule 5: Meet the component quality bar
 
 Every component on every page passes all of these:
 
@@ -89,20 +89,20 @@ Every component on every page passes all of these:
 Before you show a prototype, take a screenshot, compare it with `fixed-reference.png`,
 name the 3 biggest gaps in finish, and fix them.
 
-## Rule 6 — Components are references, not templates
+## Rule 6: Components are references, not templates
 
 Adapt each component to the context of the dashboard: its question, its data, its audience.
 Change the chart, the control or the story mark when the context asks for it. Do not copy a
 component blindly, and never reuse its sample text or numbers.
 
-## Rule 7 — Use realistic sample numbers
+## Rule 7: Use realistic sample numbers
 
 The prototype shows real-looking figures, not `123` or `Lorem ipsum`: a plausible magnitude,
 the right unit, a delta and a comparison (target or prior period). Label the page or the
 prototype **"Sample data"**. Sample numbers never move into the Power BI build. There every
 figure comes from the model and is reconciled.
 
-## Rule 8 — Always finish with the senior review
+## Rule 8: Always finish with the senior review
 
 Before you hand over any prototype, review it against the brief and this skill, list the
 problems, fix them, and re-check the screenshot:
@@ -118,7 +118,7 @@ problems, fix them, and re-check the screenshot:
 Then write `handoff.md` next to the prototype: open data questions, model, measures and the
 native visual for each zone. Do not build it until the user asks.
 
-## Rule 9 — Report at the end of every design
+## Rule 9: Report at the end of every design
 
 Close every design with three lines:
 
