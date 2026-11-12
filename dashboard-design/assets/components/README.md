@@ -1,6 +1,6 @@
 # Components
 
-Ten closed components. Each one answers one question. Open `preview.html` in a browser to see them all with sample data.
+Ten components. Each one answers one question. Open `preview.html` in your browser to see all of them with sample data.
 
 ## Index
 | Component | Question it answers | Size |
