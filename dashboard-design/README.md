@@ -1,18 +1,20 @@
 # dashboard-design
 
-This is the skill from my video "Turn Claude into a Senior Power BI Designer in 3 Simple Steps".
+A Claude skill to design Power BI dashboards and reports that look professional.
 
-Video: link coming soon
+## What it is
 
-## What it does
+It is a design skill. You tell Claude what dashboard you need and Claude makes a prototype of the page: the layout, the components and the story it tells.
 
-When you ask Claude for a Power BI dashboard, you normally get a generic page. With this skill, Claude follows the three steps from the video:
+It does not create the Power BI file. That is on purpose. First you get the design right, and then you build it in Power BI. Changing a prototype takes one minute. Changing a finished report takes a lot more.
 
-1. **Layout.** It picks one of five layout patterns and tells you why.
-2. **Components.** It fills every box with a complete component, not a loose visual.
-3. **Context.** It asks who the dashboard is for and what they need to decide.
+With every design you also get a handoff: the measures and the native Power BI visual you need for each part of the page. So when you go to Power BI, you already know what to build.
 
-What you get is a design prototype with sample numbers, using only native Power BI visuals. It is the design, not the final report. You build it in Power BI after.
+## What you need
+
+- Claude Code. That is where I use it.
+- Nothing else to start. You don't need Power BI open and you don't need real data. The prototype uses sample numbers.
+- Power BI Desktop later, when you build the report.
 
 ## How to install it
 
@@ -22,11 +24,42 @@ What you get is a design prototype with sample numbers, using only native Power 
 
 ## How to use it
 
-Just ask for a dashboard design. For example:
+1. Ask Claude for a dashboard design.
+2. Claude asks you four questions: who is it for, what do they decide with it, what do they ask first, and what the page must never do.
+3. Claude picks a layout, tells you why, and makes the prototype. It is usually an HTML page you open in your browser.
+4. Look at it and ask for changes, like you would do with a designer.
+5. When you like it, use the handoff to build it in Power BI.
+
+## Examples
+
+The simple way. Claude will ask you the questions:
 
 > Design a Power BI dashboard for a logistics company.
 
-Claude asks you four questions first: who is it for, what do they decide, what do they ask first, and what the page must never do. Answer them and you get the design.
+With the context from the start. This gives you the best result:
+
+> Design a Power BI dashboard page.
+> Audience: the transport manager.
+> Decision: every morning, which routes and carriers to act on so deliveries arrive on time.
+> First question they ask: which deliveries will be late today, and why?
+> Never: show numbers they can't act on.
+
+When you only want to decide the structure:
+
+> I need a monthly sales page for the leadership team. Which layout would you use, and why?
+
+When you want to change something:
+
+> I like it, but the ranking has to stay visible all the time. Try another layout.
+
+## How to get more out of it
+
+- Be specific with the audience. "The fleet manager of one store" works much better than "management".
+- Always say what the page must never do. It is the fastest way to remove things that say nothing.
+- If you don't like the layout, ask for another one of the five and ask why. The reason helps you decide.
+- The components are a starting point. Ask Claude to adapt them to your data and your question.
+- The skill does not decide colors or fonts. Give Claude your theme or your design system and it will use it.
+- Open `assets/components/preview.html` in your browser to see the ten components before you start.
 
 ## What is inside
 
@@ -44,13 +77,11 @@ The layouts are Executive Z, Main + Insight Rail, Hero Split, List + Canvas and 
 
 The components are KPI + line, KPI + bar, KPI vs target, Variance bars, Donut + breakdown, Ranking, Table with selectors, Trend comparison, Map + top list and Insight card.
 
-## Colors and fonts
+The layouts come from real dashboards. I looked at 1,081 and kept the 301 that look professional. The five layouts are the patterns they use the most.
 
-The skill does not decide colors or fonts. Use your own theme or design system. The colors in `assets/components/README.md` are only the ones I used in the preview.
+## The video
 
-## Where the layouts come from
-
-I looked at 1,081 dashboards and kept the 301 that look professional. The five layouts are the patterns they use the most.
+I build this skill step by step in "Turn Claude into a Senior Power BI Designer in 3 Simple Steps". Link coming soon.
 
 ## Credits
 
